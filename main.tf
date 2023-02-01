@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket   = "emrah-aws-terraform-state-bucket"
-    key      = "asg-alb-ec2/terraform.tfstate"
+    key      = "asg-alb-ec22/terraform.tfstate"
     region   = "eu-central-1"
   }
 }
